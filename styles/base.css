@@ -1,15 +1,15 @@
+    
 nav {
-
-    font-size: 2 rem;
+   background-color: rgb(4, 22, 20,0.2)
 }
 
 nav a {
-    background-color :  rgb(236, 227, 227);
+    background-color :  rgb(236, 227, 227, 02);
     display:flex;
     align-items:center;
     justify-content: center;
-    padding: 1rem;
-    border: 1px solid rgba(red, green, blue, alpha);
+    padding: 75rems;
+    border: 1px solid rgba(red, green, blue, 05
 
 
 
@@ -19,31 +19,16 @@ nav ul  {list-style-type: none;
 }
 nav a { 
     display: block; 
-    color:#f3efef ;
+    color: black ;
     text-align: center;
     padding: 5rem;
     text-decoration: none;
 }
 
 nav a:hover {
-    border:1px solid #fff
+    background-color: rgba(250,250,250, 02);
 }
 
 nav .active {
-background-color: rgba 0,0,0,0.3;
+background-color: rgba 0,0,0,0.4;
 }
-
-/*larger Views *********************/
-@media (min-width:36rem) {
-.parent{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 10px;
-}
-nav ul {
-    display: flex;
-    justify-content:space-between;
-
-nav ul list-style: {
-    flex: 1 1 100%;
-};    
