@@ -1,18 +1,3 @@
 /*larger Views *********************/
 @media (min-width:640px);
-    .parent{
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        column-gap: 10px;
    
-    }
-    .parent section{
-        box-shadow: 1px 1px 10px black
-    }
-    nav ul {
-        display: flex;
-        justify-content:space-between;
-    
-    nav ul {list-style: 
-        flex: 1 1 100%;
-    };    
