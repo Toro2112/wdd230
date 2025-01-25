@@ -16,6 +16,8 @@ marquee {
 
 h1 {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: red;
+	padding:10px;
 }
 
 main {
@@ -26,10 +28,14 @@ main {
 h2 {
 	color: navy;
 	text-align: left;
+	background-color: red;
+	padding:10px;
+	align-content:left
 }
 
 article p {
 	text-align: justify;
+	background-color: black;
 }
 
 .callout {
