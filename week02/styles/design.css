@@ -22,7 +22,9 @@ h1 {
 
 main {
 	display: grid;
+	grid-template-columns: auto;
     grid-column: span;
+	
 }
 
 h2 {
