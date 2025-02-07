@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Verdana', sans-serif; /* Using Verdana for headings */
+    color: #0056b3;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.color-scheme, .typography, .wireframe {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
