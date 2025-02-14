@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Join - Thabang Ratema - WDD 230</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.icon">
+</head>
+<body>
+    <header>
+        <div class="user">
+            <img src="images/profile.jpg" alt="Thabang Ratema profile" width="150" height="186">
+            <a href="week03/images/landscape.webp">WebP</a>
+            <span>Thabang Ratema</span>
+        </div>
+        <nav>
+            <button id="hamburger"></button>
+            <ul class="navigation">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Site-plan</a></li>
+                <li><a href="#">Form</a></li>
+            </ul>  
+        </nav>
+    </header>
+
+    <main>
+        <h1>Join Our Chamber</h1>
+        <form action="thankyou.html" method="get">
+            <label for="firstName">Applicant's First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Applicant's Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="title">Title/Position:</label>
+            <input type="text" id="title" name="title" pattern="[A-Za-z\s\-]{7,}" title="Minimum 7 characters, letters, spaces, and hyphens only" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="example@example.com">
+
+            <label for="phone">Mobile Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="organization">Business/Organization Name:</label>
+            <input type="text" id="organization" name="organization" required>
+
+            <label for="membershipLevel">Membership Level:</label>
+            <select id="membershipLevel" name="membershipLevel" required>
+                <option value="NP Membership">NP Membership (No Fee)</option>
+                <option value="Bronze Membership">Bronze Membership</option>
+                <option value="Silver Membership">Silver Membership</option>
+                <option value="Gold Membership">Gold Membership</option>
+            </select>
+
+            <label for="description">Business/Organization Description:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <input type="hidden" id="timestamp" name="timestamp" value="<?php echo date('Y-m-d H:i:s'); ?>">
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <div class="membership-benefits">
+            <h2>Membership Level Benefits</h2>
+            <ul>
+                <li><strong>NP Membership:</strong> No fee, basic access.</li>
+                <li><strong>Bronze Membership:</strong> Access to newsletters and events.</li>
+                <li><strong>Silver Membership:</strong> Includes Bronze benefits, plus discounts on events.</li>
+                <li><strong>Gold Membership:</strong> All benefits, plus advertising opportunities on the website.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year">year</span> | Thabang Ratema | ZA</p>
+    </footer>
+    <script src="scripts/getDates.js"></script> 
+</body>
+</html>

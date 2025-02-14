@@ -3,99 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Thabang Ratema-WDD 230 - Web Frontend Development"</title>
-    <meta name=" description" content- " Thabang Ratema-WDD230 - Web Frontend Development"/>
-    <meta property="og:description" content:"Thabang Ratema - WDD230 Web Frontend Development"/>
-    <meta property="og:title" content="Thabang Ratema-WDD 230 - Web Frontend Development"/>
-    <meta property="og:type" content="video.movie"/>
-    <meta property="og:image" content="https://www.google.com/search?q=jouberton+images&sca_esv=df054736d75a2025&rlz=1C1GEWG_enZA1008ZA1008&sxsrf=AHTn8zqFFiKxjwoMSmk1mIB6b52ZFmHySQ%3A1738769590774&ei=toSjZ87VLq2zhbIP3ImwgAU&oq=jouberton+image&gs_lp=Egxnd3Mtd2l6LXNlcnAiD2pvdWJlcnRvbiBpbWFnZSoCCAAyBRAhGKABMgUQIRigAUii3ANQ9AdY4kpwAHgCkAEAmAHZBKAB_CyqAQkyLTEuNi4zLjS4AQHIAQD4AQGYAgmgApwYwgIEEAAYR8ICChAjGIAEGCcYigXCAgYQABgWGB7CAgsQLhiABBjHARivAcICBRAuGIAEwgIKEAAYgAQYFBiHAsICBRAAGIAEwgIHECEYoAEYCpgDAIgGAZAGCJIHBzEuMy01LjOgB8FM&sclient=gws-wiz-serp#vhid=1PGJyvK54oZMBM&vssid=_9oSjZ47mOPidhbIP4oLUsAs_80"/>
-    <meta property="og:url" content="https://www.google.com/search?q=jouberton+images&sca_esv=df054736d75a2025&rlz=1C1GEWG_enZA1008ZA1008&sxsrf=AHTn8zqFFiKxjwoMSmk1mIB6b52ZFmHySQ%3A1738769590774&ei=toSjZ87VLq2zhbIP3ImwgAU&oq=jouberton+image&gs_lp=Egxnd3Mtd2l6LXNlcnAiD2pvdWJlcnRvbiBpbWFnZSoCCAAyBRAhGKABMgUQIRigAUii3ANQ9AdY4kpwAHgCkAEAmAHZBKAB_CyqAQkyLTEuNi4zLjS4AQHIAQD4AQGYAgmgApwYwgIEEAAYR8ICChAjGIAEGCcYigXCAgYQABgWGB7CAgsQLhiABBjHARivAcICBRAuGIAEwgIKEAAYgAQYFBiHAsICBRAAGIAEwgIHECEYoAEYCpgDAIgGAZAGCJIHBzEuMy01LjOgB8FM&sclient=gws-wiz-serp#vhid=1PGJyvK54oZMBM&vssid=_9oSjZ47mOPidhbIP4oLUsAs_80"/>
-    <meta property="og:url" content=""/>
-    <meta name ="author" content- " Thabang Ratema"/>
+    <title>Form - WDD 230</title>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link href="styles/base.css" rel="stylesheet"/>
-    <link href="styles/larger.css" rel="stylesheet"/>
-    <link href="styles/form.css" rel="stylesheet"/>
-    <link rel="icon" href="favicon">
-    <link rel="pre-connect" href="https://fonts.googleapis.com"/>
-    <link rel="pre-connect" href="https://fonts.gstatic.com" crossorigin/>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link href="https://codepen.io/Toro2112/pen/KwPEvXP="/>   
-    <link href="https://codepen.io/blazzard-jason/pen/PoaQgXJ"/>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.icon">
 </head>
 <body>
     <header>
         <div class="user">
-        <img src="images/profile.jpg.jpg"alt="Thabang Ratema profile"  width="150" height="186">
-        <a href="week03/images/landscape.webp">WebP</a>
-        <span>Thabang Ratema</span>
-    </div>
+            <img src="images/profile.jpg" alt="Thabang Ratema profile" width="150" height="186">
+            <a href="week03/images/landscape.webp">WebP</a>
+            <span>Thabang Ratema</span>
+        </div>
+        <nav>
+            <button id="hamburger"></button>
+            <ul class="navigation">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Site-plan</a></li>
+                <li><a href="#">Form</a></li>
+            </ul>  
+        </nav>
+    </header>
 
-    <!-- <button id="menu"></button> -->
+    <main>
+        <h1>Create an Account</h1>
+        <form action="record.html" method="get" id="registrationForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
 
-    <nav>
-        
-        <ul class="navigation">
-          <li><a href="#" >Home</a></li>
-          <li><a href="#">Chamber</a></li>
-          <li><a href="#">Site-plan</a></li>
-          <li class="active"><a href="form.html"><Form></a></li>
-        </ul>    
-    </nav>
-    <main>  
-    <h1> Form Pattern</h1>
-    <form method: "get">
-    <label>User ID: 
-    <!-- # fill in the numbers or alphabet you want in the username, e.g number or characters -->
-    <input type="text" pattern="[a-z]{8}"title="Must contain exactly 3 lowercase letters" id="" name="" required>
-    <label for="pswd1">Password</label>
-     <input type="password1" id="pswd1" name="password1"><br></br>
-     <label for="pswd1">Re-enter Password</label>
-     <input type="password2" id="pswd2" name="password2"
-    </label>
-    <input type="submit" value="Confirm"><br></br>
-    <!-- The email address must come from the byui.edu domain.
-    Validate the email input using this pattern or one that you generate/find/build:
-    "[a-zA-Z0-9._%+-]+@byui\.edu$" or [a-zA-Z0-9._%+\-]+@byui\.edu -->
-    <label> Please enter valid email address:
-    <input type="text" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="The email address must come from the byui.edu domain" id="emailad" name="Email Address" required>
-    </label>
-    <label>
-    <input type="submit" value="Confirm"</label>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required title="Password must be at least 8 characters long and alphanumeric.">
 
-    <label>
-    <div class="star-rating">
-        <input type="radio" name="stars" id="star-a" value="5"/>
-        <label for="star-a"></label>
-  
-        <input type="radio" name="stars" id="star-b" value="4"/>
-        <label for="star-b"></label>
-    
-        <input type="radio" name="stars" id="star-c" value="3"/>
-        <label for="star-c"></label>
-    
-        <input type="radio" name="stars" id="star-d" value="2"/>
-        <label for="star-d"></label>
-    
-        <input type="radio" name="stars" id="star-e" value="1"/>
-        <label for="star-e"></label>
-    </div>
-    </label>
-    <label <input type="submit" value="submit"</label>
-    </form>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address (e.g., example@byui.edu)">
+
+            <label for="pageRating">Page Rating:</label>
+            <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" value="5">
+            <span id="ratingValue">5</span>
+
+            <input type="submit" value="Submit">
+        </form>
     </main>
-    <footer>
-        <p>&copy 2024| Thabang Ratema| ZA</p>
-        <p></p>
-    </footer>
-    <script src="scripts\getDates.js"></script>
-    <script src="script/navigation.js"></script>
-    <script src="script/darkMode.js"></script>
-    <script src="script/visitcounter.js"></script>
-    <script src="script/formvalidation.js"></script>
 
-    
+    <footer>
+        <p>&copy; <span id="year">2025</span> | Thabang Ratema | ZA</p>
+    </footer>
+
+    <script>
+        const passwordField = document.getElementById('password');
+        const confirmPasswordField = document.getElementById('confirmPassword');
+
+        confirmPasswordField.addEventListener('input', () => {
+            if (confirmPasswordField.value !== passwordField.value) {
+                confirmPasswordField.setCustomValidity("Passwords do not match");
+                confirmPasswordField.reportValidity();
+            } else {
+                confirmPasswordField.setCustomValidity("");
+            }
+        });
+
+        const rangeInput = document.getElementById('pageRating');
+        const ratingDisplay = document.getElementById('ratingValue');
+
+        rangeInput.addEventListener('input', () => {
+            ratingDisplay.textContent = rangeInput.value;
+        });
+    </script>
 </body>
 </html>
