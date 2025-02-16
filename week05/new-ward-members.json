@@ -1,21 +1,27 @@
 {
-"famliy name":"Qwaqwa",
-"moved in":"feb,2024",
-"number of members" : 300 ,
-"visited by the bishop" : "no",
-{
-    "name" : "Thabang Ratema",
-    "gender" : "Priesthood Holder",
-    "Birthdate" : 1983,
-    "birthplace" : "Matlosana",
-
-    "name" : "Lerato Ratema",
-    "gender" : "Relief Society",
-    "Birthdate" : 1991,
-    "birthplace" : "Soweto",
-
-    "name" : "Toro Ratema",
-    "gender" : "Priesthood Holder",
-    "Birthdate" : 2022,
-    "birthplace" : "Johanneburg",
-}
+    "families": [
+      {
+        "familyName": "Ratema",
+        "moveInDate": "2024-02-02",
+        "numberOfPeople": 3,
+        "visitedByBishopric": false,
+        "members": 
+          {
+            "name": "Thabang Ratema",
+            "gender": "Male",
+            "birthdate": "1983-12-12"
+          },
+          {
+            "name": "Lerato Ratema",
+            "gender": "Female",
+            "birthdate": "1991-01-15"
+          },
+          {
+            "name": "Toro Masa Ratema",
+            "gender": "Male",
+            "birthdate": "2022-12-21"
+          }
+        ]
+      }
+    ]
+  }
