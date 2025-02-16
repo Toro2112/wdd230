@@ -1,6 +1,6 @@
 {
-    "families": [
-      {
+    "families":[
+     {
         "familyName": "Ratema",
         "moveInDate": "2024-02-02",
         "numberOfPeople": 3,
@@ -21,7 +21,7 @@
             "gender": "Male",
             "birthdate": "2022-12-21"
           }
-        ]
+        
       }
     ]
   }
