@@ -5,7 +5,7 @@
         "moveInDate": "2024-02-02",
         "numberOfPeople": 3,
         "visitedByBishopric": false,
-        "members": 
+        "members": [
           {
             "name": "Thabang Ratema",
             "gender": "Male",
@@ -21,6 +21,7 @@
             "gender": "Male",
             "birthdate": "2022-12-21"
           }
+        ]
         
       }
     ]
